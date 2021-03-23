@@ -369,6 +369,10 @@ li a img.lang-icon {
     display: flex;
     flex-direction: column;
   }
+  .main-div{
+    background-size: 100%;
+    top: 25%;
+  }
   .text h1 {
     font-size: 50px;
     font-weight: bold;
