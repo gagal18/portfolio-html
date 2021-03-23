@@ -46,13 +46,14 @@ main {
 }
 
 #navbar {
-  --navbar-height: 64px;
+  --navbar-height: 65px;
   position: fixed;
   height: var(--navbar-height);
   background-color: var(--navbar-bg-color);
   left: 0;
   right: 0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  z-index: 5;
 }
 
 .navbar-container {
@@ -246,6 +247,7 @@ main {
   }
 }
 @media screen and (min-width: 700px) {
+  
   .navbar-toggle {
     display: none;
   }
@@ -310,10 +312,44 @@ footer {
 .mainContainer {
   width: 100%;
   height: 1000px;
-  background-color: var(--rg-blue);
 }
-.lang-icon{
-  margin-left:10px;
+.lang-icon {
+  margin-left: 10px;
   width: 30px;
   border-radius: 50%;
+}
+.main-img {
+  position: relative;
+  top: 65px;
+  display: block;
+  margin: auto;
+  width: 100%;
+  opacity: 0.5;
+  z-index: 1;
+}
+.text h1{
+  font-size: 80px;
+  font-weight: bold;
+}
+#about .text{
+  position: relative;
+  opacity: 1;
+  top: 200px;
+  left: 200px;
+}
+#about{
+  z-index: 1;
+}
+.about-div {
+  background-image: url("./as.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: grey;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.5;
 }
