@@ -245,7 +245,7 @@ main {
     display: flex;
     flex-direction: column;
   }
-  #about div.text{
+  #main div.text{
     position: relative;
     opacity: 1;
     top:100px;
@@ -337,16 +337,16 @@ footer {
   font-size: 80px;
   font-weight: bold;
 }
-#about .text{
+#main .text{
   position: relative;
   opacity: 1;
   top: 200px;
   left: 200px;
 }
-#about{
+#main{
   z-index: 1;
 }
-.about-div {
+.main-div {
   background-image: url("./as.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -358,4 +358,7 @@ footer {
   left: 0;
   right: 0;
   opacity: 0.5;
+}
+.text-ab{
+  border: 1px solid black;
 }
