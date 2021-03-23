@@ -304,7 +304,7 @@ li a img.lang-icon {
   z-index: 1;
 }
 .main-div {
-  background-image: url("./as.jpg");
+  background-image: url("./ab.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-color: grey;
@@ -325,6 +325,13 @@ li a img.lang-icon {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+.container-l #pic-div{
+  display: flex;
+  justify-content: center;
+}
+.pic-icon{
+  width: 50%;
 }
 
 @media (min-width: 768px) {
