@@ -377,7 +377,7 @@ li a img.lang-icon {
     flex-direction: column;
   }
   .main-div{
-    background-size: 100%;
+    background-size: 100vw 100vh;
     top: 25%;
   }
   .text h1 {
