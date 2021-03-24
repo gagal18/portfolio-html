@@ -355,6 +355,47 @@ li a img.lang-icon {
   background-color:rgba(211, 211, 211, 0.75);
   color: hsl(0, 0%, 25%);
 }
+#reference h1{
+  text-align: center;
+  padding: 15px;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+.column img{
+  width: 50%;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  transition: 0.5s;
+  text-align: center;
+  background-color: #f1f1f1;
+  color: var(--navbar-bg-contrast);
+}
 
 @media (min-width: 768px) {
   .container-l {
@@ -415,15 +456,18 @@ li a img.lang-icon {
   }
   .container-l img{
     width: 50%;
-    position: absolute;
+    position: inherit;
     left: 25%;
+  }
+  div#main{
+    height: 100vh;
   }
   .container-l .col p{
     width: 80vw;
     padding: 10px 15px;
   }
   .mainContainer{
-    height: 110vh;
+    height: 100%;
   }
 }
 @media screen and (min-width: 700px) {
