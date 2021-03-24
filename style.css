@@ -257,7 +257,7 @@ footer {
   align-items: center;
   justify-content: center;
 }
-.rights {
+p.rights {
   background-color: var(--navbar-text-color);
   display: flex;
   color: var(--navbar-bg-color);
@@ -273,7 +273,38 @@ footer {
   text-decoration: none;
 }
 .ic{
-  color:var(--al-blue) ;
+  color: lightblue ;
+}
+.card{
+  margin-top: 100px;
+}
+#career{
+  text-align: center;
+}
+#career .card{
+  height: 300px;
+}
+#contact h1{
+  text-align: center;
+}
+footer p{
+  padding: 50px;
+}
+.service-item .icon{
+  color: #222;
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 80px;
+    height: 80px;
+    line-height: 78px;
+    font-size: 30px;
+    border: 1px solid #e3e3e3;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transition: .5s all ease;
+    -o-transition: .5s all ease;
+    transition: .5s all ease;
+    background-color: #f9f9f9;
 }
 .mainContainer {
   width: 100%;
@@ -296,6 +327,9 @@ li a img.lang-icon {
 .text h1{
   font-size: 80px;
   font-weight: bold;
+}
+.mainContainer h1{
+  text-align: center;
 }
 #main .text{
   position: absolute;
