@@ -290,7 +290,7 @@ li a img.lang-icon {
   display: block;
   margin: auto;
   width: 100%;
-  opacity: 0.5;
+  opacity: 1.5;
   z-index: 1;
 }
 .text h1{
@@ -317,7 +317,7 @@ li a img.lang-icon {
   bottom: 0;
   left: 0;
   right: 0;
-  opacity: 0.5;
+  opacity: 1.5;
 }
 .text-ab{
   border: 1px solid black;
@@ -343,6 +343,17 @@ li a img.lang-icon {
 }
 .pic-icon{
   width: 50%;
+}
+.mainContainer{
+  border: 1px solid black;
+}
+.mainContainer:nth-child(odd){
+  background-color:hsl(0, 0%, 25%);
+  color: #edf5e1;
+}
+.mainContainer:nth-child(even){
+  background-color:rgba(211, 211, 211, 0.75);
+  color: hsl(0, 0%, 25%);
 }
 
 @media (min-width: 768px) {
@@ -406,6 +417,10 @@ li a img.lang-icon {
     width: 50%;
     position: absolute;
     left: 25%;
+  }
+  .container-l .col p{
+    width: 80vw;
+    padding: 10px 15px;
   }
 }
 @media screen and (min-width: 700px) {
