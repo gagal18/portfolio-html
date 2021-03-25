@@ -37,7 +37,6 @@ main {
   align-items: center;
   justify-content: center;
 }
-
 .container {
   max-width: 1000px;
   padding-left: 1.4rem;
@@ -487,6 +486,9 @@ li a img.lang-icon {
     top:100px;
     left:0;
     padding-left: 10px;
+  }
+  .container-l .carousel-inner img{
+    left: 0;
   }
   .container-l img{
     width: 50%;
