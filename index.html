@@ -1,273 +1,287 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- LINK's -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
-      crossorigin="anonymous"
-    />
-    <link
-    rel="stylesheet"
-    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
-    crossorigin="anonymous"
-  />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
     <link rel="shortcut icon" href="./icon.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
     <title>Bojan Gagaleski - Portfolio</title>
-  </head>
-  <body>
-      <!-- NAVBAR -->
-      <header id="navbar">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <header id="navbar">
         <nav class="navbar-container container">
-          <a href="index.html" class="home-link">
-            <img src="./iconCr.png" alt="" id="logo" class="logo">
-          </a>
-          <button type="button" class="navbar-toggle" aria-label="Open navigation menu">
+            <a href="index.html" class="home-link">
+                <img src="./iconCr.png" alt="" id="logo" class="logo">
+            </a>
+            <button type="button" class="navbar-toggle" aria-label="Open navigation menu">
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
           </button>
-          <div class="navbar-menu detached">
-            <ul class="navbar-links">
-              <li class="navbar-item"><a class="navbar-link" href="#about" onclick="closeMobileNavbar()">About</a></li>
-              <li class="navbar-item"><a class="navbar-link" href="#career" onclick="closeMobileNavbar()">Career plan</a></li>
-              <li class="navbar-item"><a class="navbar-link" href="#reference" onclick="closeMobileNavbar()">References</a></li>
-              <li class="navbar-item"><a class="navbar-link" href="#hoby" onclick="closeMobileNavbar()">More about me</a></li>
-              <li class="navbar-item"><a class="navbar-link" href="#contact" onclick="closeMobileNavbar()">Contact</a></li>
-              <li> <a href="./index-mk.html"><img src="./mk1.jpg" alt="" class="lang-icon" id="lang-icon" ></a></li>
-              <li> <a href="./index.html"><img src="./usuk1.jpg" alt="" class="lang-icon" id="lang-icon"></a></li>
-            </ul>
-          </div>
+            <div class="navbar-menu detached">
+                <ul class="navbar-links">
+                    <li class="navbar-item"><a class="navbar-link" href="#about" onclick="closeMobileNavbar()">About</a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="#career" onclick="closeMobileNavbar()">Career plan</a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="#reference" onclick="closeMobileNavbar()">References</a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="#hoby" onclick="closeMobileNavbar()">More about me</a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="#contact" onclick="closeMobileNavbar()">Contact</a></li>
+                    <li>
+                        <a href="./index-mk.html"><img src="./mk1.jpg" alt="" class="lang-icon" id="lang-icon"></a>
+                    </li>
+                    <li>
+                        <a href="./index.html"><img src="./usuk1.jpg" alt="" class="lang-icon" id="lang-icon"></a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
-</div>
-<!-- MAIN CONTAINER -->
-<div class="mainContainer" id="main">
-  <div class="container-l">
-  <div class="text col">
- <h1>Hi! I'm Bojan</h1>
- <h3>A student who has many goals to achieve <br>and never gives up. <br>I am ready for new challenges !!!!</h3>
- <h3>and also I'm ready for new challenges</h3>
-  <div class="container py-5">
-    <div class="output" id="output">
-      <h1 class="cursor"></h1>
-      <p></p>
     </div>
-  </div>
-</div>
-  </div>
- <div class="main-div"></div>
-</div>
-<div class="mainContainer" id="about">
-    <div class="container-l">
-      <div class="row">
-      <div class="col">
-        <h1>About me</h1>
-        <p>Hi , I’m Bojan Gagaleski from Struga,Macedonia and I'm 18 years old . I’m third year high school student in SOU Niko Nestor. I’m studying electrical engineering, automation and programming.</p>
-        <p>As my hobby nearly 2 years ago I was interested in programming and started with the basic. Right now I focus on being Front-end developer and learning React as JavaScript Framework. I’m passionate and enthusiastic for learning more technologies. This is just my start.</p>
-        <p>With my knowledge I’m sure that I can help some software development company and learn something more and get more experience.</p>
-        
-      </div>
-      
-      <div class="col" id="pic-div"><img class='pic-icon' src="./asa.png" alt=""></div>
-    </div> 
-  </div>
-  <div class="row">
-    <div class="column">
-      <div class="card">
-        <div class="container-card">
-          <h4><b>John Doe</b></h4> 
-          <p>Architect & Engineer</p> 
+    <!-- MAIN CONTAINER -->
+    <div class="mainContainer" id="main">
+        <div class="container-l">
+            <div class="text col">
+                <h1>Hi! I'm Bojan</h1>
+                <h3>A student who has many goals to achieve <br>and never gives up. <br>I am ready for new challenges !!!!</h3>
+                <h3>and also I'm ready for new challenges</h3>
+                <div class="container py-5">
+                    <div class="output" id="output">
+                        <h1 class="cursor"></h1>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+        <div class="main-div"></div>
     </div>
-  
-    <div class="column">
-      <div class="card">
-        <div class="container-card">
-          <h4><b>John Doe</b></h4> 
-          <p>Architect & Engineer</p> 
-        </div>
-      </div>
-    </div>
-    
-    <div class="column">
-      <div class="card">
-        <div class="container-card">
-          <h4><b>John Doe</b></h4> 
-          <p>Architect & Engineer</p> 
-        </div>
-      </div>
-    </div>
-    
-    <div class="column">
-      <div class="card">
-        <div class="container-card">
-          <h4><b>John Doe</b></h4> 
-          <p>Architect & Engineer</p> 
-        </div>
-      </div>
-    </div>
-  </div>
-         
-  </div>
-  
-<div class="mainContainer" id="career">
-  <h1>My future career plans</h1>
+    <div class="mainContainer" id="about">
+        <div class="container-l">
+            <div class="row">
+                <div class="col">
+                    <h1>About me</h1>
+                    <p>Hi , I’m Bojan Gagaleski from Struga,Macedonia and I'm 18 years old . I’m third year high school student in SOU Niko Nestor. I’m studying electrical engineering, automation and programming.</p>
+                    <p>As my hobby nearly 2 years ago I was interested in programming and started with the basic. Right now I focus on being Front-end developer and learning React as JavaScript Framework. I’m passionate and enthusiastic for learning more
+                        technologies. This is just my start.</p>
+                    <p>With my knowledge I’m sure that I can help some software development company and learn something more and get more experience.</p>
 
-  <div class="row">
-    <div class="column">
-      <div class="card">
-        <div class="service-item">
-          <span class="icon">
+                </div>
+
+                <div class="col" id="pic-div"><img class='pic-icon' src="./asa.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mainContainer" id="career">
+        <h1>My future career plans</h1>
+
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <div class="service-item">
+                        <span class="icon">
               <i class="fa fa-code"></i>
           </span>
-          <h4>Code &amp; Script</h4>
-          <p>Right now my priority is to be good JavaScript developer. Later I want to learn new programming languages and implement them in my code</p>
-      </div>
-      </div>
-    </div>
-    <div class="column">
-      <div class="card">
-        <div class="service-item">
-          <span class="icon">
+                        <h4>Code &amp; Script</h4>
+                        <p>Right now my priority is to be good JavaScript developer. Later I want to learn new programming languages and implement them in my code</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <div class="service-item">
+                        <span class="icon">
             <i class="fas fa-graduation-cap"></i>
           </span>
-          <h4>Finish my high school</h4>
-          <p>In 2022 I will finish high school. I believe with the best results that will allow me to enter the best university for me.</p>
-      </div>
-      </div>
-    </div>
-    <div class="column">
-      <div class="card">
-        <div class="service-item">
-          <span class="icon">
+                        <h4>Finish my high school</h4>
+                        <p>In 2022 I will finish high school. I believe with the best results that will allow me to enter the best university for me.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <div class="service-item">
+                        <span class="icon">
             <i class="fas fa-user-graduate"></i>
           </span>
-          <h4>Get bachelor's degree</h4>
-          <p>I will certainly continue my higher education at a university that provides very practical training in accordance with the requirements of the business community in the IT sector. I will use all opportunities for
-          <br>  to upgrade my knowledge, to be a master in the field in the future.</p>
-      </div>
-      </div>
-    </div>
-    <div class="column">
-      <div class="card">
-        <div class="service-item">
-          <span class="icon">
+                        <h4>Get bachelor's degree</h4>
+                        <p>I will certainly continue my higher education at a university that provides very practical training in accordance with the requirements of the business community in the IT sector. I will use all opportunities for
+                            <br> to upgrade my knowledge, to be a master in the field in the future.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <div class="service-item">
+                        <span class="icon">
             <i class="fas fa-laptop-code"></i>
           </span>
-          <h4>Get full time job</h4>
-          <p>Finding a full-time job is a real challenge. I am preparing for him. The choice will probably be a company I will enjoy working with. A company that will motivate me to constantly improve and be part of a successful team.
-            And what next? Time will tell!</p>
-      </div>
-      </div>
-    </div>
-    
-  </div>
-</div>
-<div class="mainContainer" id="reference">
-  <h1>References from people <br> around me</h1>
-  <div class="row">
-    <div class="column">
-      <div class="card">
-        <img src="img_avatarm.png" alt="Avatar">
-        <div class="container-card">
-          <h4><b>John Doe</b></h4> 
-          <p>Architect & Engineer</p> 
-        </div>
-      </div>
-    </div>
-  
-    <div class="column">
-      <div class="card">
-        <img src="img_avatarf.png" alt="Avatar">
-        <div class="container-card">
-          <h4><b>John Doe</b></h4> 
-          <p>Architect & Engineer</p> 
-        </div>
-      </div>
-    </div>
-    
-    <div class="column">
-      <div class="card">
-        <img src="img_avatarm.png" alt="Avatar">
-        <div class="container-card">
-          <h4><b>John Doe</b></h4> 
-          <p>Architect & Engineer</p> 
-        </div>
-      </div>
-    </div>
-    
-    <div class="column">
-      <div class="card">
-        <img src="img_avatarf.png" alt="Avatar">
-        <div class="container-card">
-          <h4><b>John Doe</b></h4> 
-          <p>Architect & Engineer</p> 
-        </div>
-      </div>
-    </div>
-  </div>
-  
-</div>
-<div class="mainContainer" id="hoby">
-  <h1>Other things i do and<br> some pictures about me</h1>
-  <div class="container-l">
-    <div class="col">
-      <h3>My hobbies</h3>
-      <p>Sure programming and school isn't everything i do<br>I workout a lot, i play video games too. In the next slideshow there are some pictures about me.<br>Check them out!<br>I also want to play with soldering iron and learn something more besides the school.</p>
-      <p>I also develop the website for my school Niko Nestor. You can check it at <a href="https://nikonestor.edu.mk/">Niko Nestor - Site.</a><br>With this site I won 4th place at MASSUM competition</p>
-      <p>I'm participate in other school projects and competition.<br>But most time is spend for classes I like the most like Programming where I learn the basics of Pascal , C and C++.</p>
-      <p>The classes I like most: Math , Practice Class , Automation and Electronics</p>
-      <p>I also like to watch Elon Musk's podcasts and interviews as my biggest idol. Genneraly I like to watch show connected with tech and industry<br> You should check my favorite. <a href="https://www.youtube.com/watch?v=RcYjXbSJBN8&t=1s">Elon Musk as guest at Joe Rogan's Show</a></p>
-      </div>
-      <div class="col">
-        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-interval="10000">
-              <img src="./imgCar/i1.jpg" class="d-block w-100" alt="...">
+                        <h4>Get full time job</h4>
+                        <p>Finding a full-time job is a real challenge. I am preparing for him. The choice will probably be a company I will enjoy working with. A company that will motivate me to constantly improve and be part of a successful team. And what
+                            next? Time will tell!</p>
+                    </div>
+                </div>
             </div>
-            <div class="carousel-item" data-interval="2000">
-              <img src="./imgCar/i2.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="./imgCar/i3.jpg" class="d-block w-100" alt="...">
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-    </div>
-  </div>    
-    
-  </div>    
-</div>  
-<!-- FOOTER -->
 
-  <footer id="contact">
-      <div class="footer-contact">
-    <div class="contact-section-header">
-        <h1>Contact me!</h1>
-        <p>Feel free to write me an email or text me a message in every period of the day <br>Good developers are always available! </p>
-      </div>
-      <div class="contact-links">
-        <a
-          href="https://www.facebook.com/bojan.gagaleski"
-          target="_blank"
-          class="btn contact-details"
-          ><i class="fab fa-facebook-square"></i> Facebook</a
+        </div>
+    </div>
+    <div class="mainContainer" id="reference">
+        <h1>References from people <br> around me</h1>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img src="img_avatarm.png" alt="Avatar">
+                    <div class="container-card">
+                        <h4><b>John Doe</b></h4>
+                        <p>Architect & Engineer</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="img_avatarf.png" alt="Avatar">
+                    <div class="container-card">
+                        <h4><b>John Doe</b></h4>
+                        <p>Architect & Engineer</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="img_avatarm.png" alt="Avatar">
+                    <div class="container-card">
+                        <h4><b>John Doe</b></h4>
+                        <p>Architect & Engineer</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card">
+                    <img src="img_avatarf.png" alt="Avatar">
+                    <div class="container-card">
+                        <h4><b>John Doe</b></h4>
+                        <p>Architect & Engineer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="mainContainer" id="hoby">
+        <h1>Other things i do and<br> some pictures about me</h1>
+        <div class="container-l">
+            <div class="row">
+                <div class="col">
+                    <h3>My hobbies</h3>
+                    <p>Sure programming and school isn't everything i do<br>I workout a lot, i play video games too. In the next slideshow there are some pictures about me.<br>Check them out!<br>I also want to play with soldering iron and learn something
+                        more besides the school.</p>
+                    <p>I also develop the website for my school Niko Nestor. You can check it at <a href="https://nikonestor.edu.mk/">Niko Nestor - Site.</a><br>With this site I won 4th place at MASSUM competition</p>
+                    <p>I'm participate in other school projects and competition.<br>But most time is spend for classes I like the most like Programming where I learn the basics of Pascal , C and C++.</p>
+                    <p>The classes I like most: Math , Practice Class , Automation and Electronics</p>
+                    <p>I also like to watch Elon Musk's podcasts and interviews as my biggest idol. Genneraly I like to watch show connected with tech and industry<br> You should check my favorite. <a href="https://www.youtube.com/watch?v=RcYjXbSJBN8&t=1s">Elon Musk as guest at Joe Rogan's Show</a></p>
+                </div>
+                <div class="col">
+                    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-interval="10000">
+                                <img src="./imgCar/i1.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item" data-interval="2000">
+                                <img src="./imgCar/i2.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./imgCar/i3.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <div class='card-h'>
+                        <div class='card__top'>
+                            <i class='fas fa-book'></i>
+                            <h1>Things I like</h1>
+                        </div>
+                        <div class='card__bottom'>
+                            <p>Cascading Style Sheets are an important way to control how your web pages look. CSS controls the fonts, text, colors, backgrounds, margins, and layout.</p>
+                            <div>
+                                <a href='#'>Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class='card-h'>
+                        <div class='card__top'>
+                            <i class='fas fa-book'></i>
+                            <h1>My characteristics</h1>
+                        </div>
+                        <div class='card__bottom'>
+                            <p>Cascading Style Sheets are an important way to control how your web pages look. CSS controls the fonts, text, colors, backgrounds, margins, and layout.</p>
+                            <div>
+                                <a href='#'>Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class='card-h'>
+                        <div class='card__top'>
+                            <i class='fas fa-book'></i>
+                            <h1>Learn CSS Tricks</h1>
+                        </div>
+                        <div class='card__bottom'>
+                            <p>Cascading Style Sheets are an important way to control how your web pages look. CSS controls the fonts, text, colors, backgrounds, margins, and layout.</p>
+                            <div>
+                                <a href='#'>Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class='card-h'>
+                        <div class='card__top'>
+                            <i class='fas fa-book'></i>
+                            <h1>Learn CSS Tricks</h1>
+                        </div>
+                        <div class='card__bottom'>
+                            <p>Cascading Style Sheets are an important way to control how your web pages look. CSS controls the fonts, text, colors, backgrounds, margins, and layout.</p>
+                            <div>
+                                <a href='#'>Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER -->
+
+    <footer id="contact">
+        <div class="footer-contact">
+            <div class="contact-section-header">
+                <h1>Contact me!</h1>
+                <p>Feel free to write me an email or text me a message in every period of the day <br>Good developers are always available! </p>
+            </div>
+            <div class="contact-links">
+                <a href="https://www.facebook.com/bojan.gagaleski" target="_blank" class="btn contact-details"><i class="fab fa-facebook-square"></i> Facebook</a
         >
         <a
           id="profile-link"
