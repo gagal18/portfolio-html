@@ -354,6 +354,10 @@ li a img.lang-icon {
 .text-ab{
   border: 1px solid black;
 }
+div.container.py-5{
+  position: absolute;
+  left: 600px;
+}
 .icons{
   display: flex;
   justify-content: center;
@@ -386,6 +390,48 @@ li a img.lang-icon {
 .mainContainer:nth-child(even){
   background-color:rgba(211, 211, 211, 0.75);
   color: hsl(0, 0%, 25%);
+}
+.output {
+  text-align:center;
+  font-family: 'Source Code Pro', monospace;
+  color:white;
+}
+.output h1{
+  font-size: 30px;
+}
+/* Cursor Styling */
+
+.cursor::after {
+  content:'';
+  display:inline-block;
+  margin-left:3px;
+  background-color:white;
+  animation-name:blink;
+  animation-duration:0.5s;
+  animation-iteration-count: infinite;
+}
+h1.cursor::after {
+  height:24px;
+  width:13px;
+}
+p.cursor::after {
+  height:13px;
+  width:6px;
+}
+
+@keyframes blink {
+  0% {
+    opacity:1;
+  }
+  49% {
+    opacity:1;
+  }
+  50% {
+    opacity:0;
+  }
+  100% {
+    opacity:0;
+  }
 }
 #reference h1{
   text-align: center;
@@ -479,6 +525,16 @@ li a img.lang-icon {
     font-size: 50px;
     font-weight: bold;
 }
+div.container.py-5{
+  position: absolute;
+  left: 10px;
+  font-size: 20px;
+  top: 400px;
+}
+div.container.py-5 h1{
+  font-size: 16px;
+}
+
   #main div.text{
     position: relative;
     opacity: 1;
