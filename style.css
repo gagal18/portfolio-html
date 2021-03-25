@@ -356,7 +356,8 @@ li a img.lang-icon {
 }
 div.container.py-5{
   position: absolute;
-  left: 600px;
+  left: 400px;
+  top: 500px;
 }
 .icons{
   display: flex;
@@ -444,7 +445,8 @@ p.cursor::after {
 }
 .column img{
   width: 50%;
-}
+  position: relative;
+  left: 25%;}
 
 /* Remove extra left and right margins, due to padding */
 .row {margin: 0 -5px;}
@@ -548,7 +550,6 @@ div.container.py-5 h1{
   .container-l img{
     width: 50%;
     position: inherit;
-    left: 25%;
   }
   div#main{
     height: 100vh;
