@@ -148,7 +148,9 @@ main {
 #navbar.opened .navbar-toggle .icon-bar:last-child {
     transform: rotate(-45deg);
 }
-
+div#about{
+    height: 120vh;
+}
 .navbar-menu {
     position: fixed;
     top: var(--navbar-height);
@@ -666,10 +668,13 @@ p.cursor::after {
         position: absolute;
         left: 10px;
         font-size: 20px;
-        top: 250px;
+        top: 300px;
     }
     div.container.py-5 h1 {
         font-size: 16px;
+    }
+    div#about{
+        height: 100%;
     }
     #main div.text {
         position: relative;
@@ -681,9 +686,7 @@ p.cursor::after {
     .container-l .carousel-inner img {
         left: 0;
     }
-    footer {
-        margin-top: 150vh;
-    }
+    
     .container-l img {
         width: 50%;
         position: inherit;
