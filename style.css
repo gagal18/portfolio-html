@@ -262,7 +262,9 @@ footer {
     align-items: center;
     justify-content: center;
 }
-
+div#reference{
+    height: fit-content;
+}
 p.rights {
     background-color: var(--navbar-text-color);
     display: flex;
