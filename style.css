@@ -604,7 +604,10 @@ p.cursor::after {
         margin-bottom: 20px;
     }
     div#about .column {
-        width: 1000%;
+        width: 100%;
+    }
+    div#about .column img{
+        height: auto;
     }
 }
 
