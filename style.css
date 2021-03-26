@@ -149,7 +149,7 @@ main {
     transform: rotate(-45deg);
 }
 div#about{
-    height: 120vh;
+    height: 100%;
 }
 .navbar-menu {
     position: fixed;
@@ -264,6 +264,9 @@ footer {
 }
 div#reference{
     height: fit-content;
+}
+div#about .column{
+    width: 50%;
 }
 p.rights {
     background-color: var(--navbar-text-color);
@@ -599,6 +602,9 @@ p.cursor::after {
         width: 100%;
         display: block;
         margin-bottom: 20px;
+    }
+    div#about .column {
+        width: 1000%;
     }
 }
 
